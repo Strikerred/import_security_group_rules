@@ -1,6 +1,6 @@
 # import_security_group_rules
 
-This script facilitate the work of importing several security group rules in a security group while using terraform. The python script has generated an output of 38 sg rules.
+This script facilitate the work of importing several security group rules in a security group while using terraform. The python script has generated an output of 38 sg rules which are stored as a json file, then you can loop through it and import them to your terraform state.
 
 ```
 [
